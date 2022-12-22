@@ -1,3 +1,3 @@
 ## List of Authors
-* Akachukwu Anthony
+* Akachukwu Anthony <anthonychinaza9@gmail.com>
 * Tolulope Adewumi
