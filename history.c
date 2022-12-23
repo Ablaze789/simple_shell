@@ -39,7 +39,7 @@ int write_history(info_t *info)
 	ssize_t fd;
 	char *filename = get_history_file(info);
 	list_t *node = NULL;
-	
+
 	if (!filename)
 		return (-1);
 
@@ -144,6 +144,7 @@ int renumber_history(info_t *info)
 {
 	list_t *node = info->history;
 	int i = 0;
+	
 	while (node)
 	{
 		node->num = i++;
