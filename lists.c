@@ -90,9 +90,7 @@ list_t *add_node_end(list_t **head, const char *str, int num)
 
 		node->next = new_node;
 	}
-
 	else
-
 		*head = new_node;
 
 	return (new_node);
@@ -169,12 +167,9 @@ int delete_node_at_index(list_t **head, unsigned int index)
 		}
 
 		i++;
-
 		prev_node = node;
-
 		node = node->next;
 	}
-
 	return (0);
 }
 
