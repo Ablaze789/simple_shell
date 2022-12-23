@@ -144,7 +144,7 @@ int renumber_history(info_t *info)
 {
 	list_t *node = info->history;
 	int i = 0;
-	
+
 	while (node)
 	{
 		node->num = i++;
